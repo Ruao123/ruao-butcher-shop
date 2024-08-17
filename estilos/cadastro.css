@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #5E5D5D;
+    padding-top: 60px;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  header nav {
+    width: 100%;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 32px;
+  }
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  footer div {
+    width: 30%;
+  }
+  
+  footer p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  footer svg {
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  footer h4 {
+    font-size: 24px;
+  }
+  footer a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.form {
+    background-color: #4a4a4a;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 20px;
+    text-align: left;
+}
+
+.form h2 {
+    text-decoration: underline;
+    text-decoration-color: #B947C3;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.form p {
+    margin-bottom: 20px;
+    color: #ff0066;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff0066;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form a {
+    display: block;
+    margin-top: 10px;
+    color: #ccc;
+    text-decoration: none;
+    text-align: right;
+}
+
+.divisor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.divisor span {
+    background-color: #5E5D5D;
+    padding: 0 10px;
+    z-index: 1;
+    color: white;
+}

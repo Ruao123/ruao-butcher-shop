@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  header nav {
+    width: 100%;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 32px;
+  }
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  footer div {
+    width: 30%;
+  }
+  
+  footer p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  footer svg {
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  footer h4 {
+    font-size: 24px;
+  }
+  footer a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+
+.menu-container {
+    background-color: #b00000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 100px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#titulo h1 {
+    font-size: 80px;
+    margin: 0;
+    letter-spacing: 16px;
+}
+
+#titulo h2 {
+    font-size: 36px;
+    margin: 0;
+    letter-spacing: 16px;
+}
+
+#titulo h3 {
+    font-size: 30px;
+    margin-top: 10px;
+    letter-spacing: 4px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.item {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+.nome-preco {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nome-preco h4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.nome-preco .preco {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item p {
+    margin: 10px 0 0;
+    font-size: 14px;
+}

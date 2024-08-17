@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+header nav {
+  width: 100%;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+section.topo {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+section.topo img {
+  width: 100%;
+}
+
+section.content {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.content p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1378px;
+  padding: 70px;
+  text-align: left;
+  width: 50%;
+  flex-grow: 0;
+  background-color: #f8f8f8;
+  border-radius: 50px;
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer div {
+  width: 30%;
+}
+
+footer p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+footer svg {
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+footer h4 {
+  font-size: 24px;
+}
+footer a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.linha {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.tamanho1 {
+  height: 400px;
+  width: 500px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.tamanho2 {
+  width: 100%;
+  border-radius: 50px;
+}
+h1 {
+  color: black;
+  font-size: 100px;
+  font-weight: 600;
+  position: absolute;
+  top: 95%;
+  left: 100px;
+  transform: translate(0, -100%);
+}
+p {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}

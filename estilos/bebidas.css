@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  header nav {
+    width: 100%;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 32px;
+  }
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  footer div {
+    width: 30%;
+  }
+  
+  footer p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  footer svg {
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  footer h4 {
+    font-size: 24px;
+  }
+  footer a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+.container {
+  display: flex;
+  margin-top: 70px;
+}
+
+.lado-esquerdo {
+  background-image: url("../fotos/bebidas.png"); /* Substitua com a URL da imagem */
+  background-size: cover;
+  background-position: center;
+  width: 40%; /* Parte da esquerda com a imagem */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.lado-esquerdo h1 {
+  font-size: 48px;
+  writing-mode: vertical-rl; /* Rotaciona o texto */
+  transform: rotate(180deg); /* Rotaciona o texto para leitura correta */
+  letter-spacing: 10px;
+}
+
+.lado-direito {
+  width: 60%;
+  padding: 40px;
+  background-color: #f7f6dc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.menu-item {
+  margin-bottom: 20px;
+}
+
+.menu-item h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #cc0066; /* Cor do título do item */
+}
+
+.menu-item p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.menu-item span.price {
+  font-size: 20px;
+  color: #cc0066; /* Cor dos preços */
+  font-weight: bold;
+}
